@@ -5,3 +5,4 @@ tensorflow==2.19.0
 librosa==0.11.0
 noisereduce==3.0.3
 soundfile==0.13.1
+gunicorn==23.0.0
