@@ -134,7 +134,7 @@ def noise_reduction():
 
 # Main startup
 if __name__ == "__main__":
-    model_path = "/models/lung_sound_classification_model.keras"
+    model_path = "models/lung_sound_classification_model.keras"
     if os.path.exists(model_path):
         model = load_audio_model(model_path)
     else:
